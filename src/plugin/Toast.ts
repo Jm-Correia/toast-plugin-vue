@@ -1,6 +1,6 @@
 import {App, reactive, ref} from "vue";
 import {Position, ToastType} from '../options';
-import ToastView from '../components/ToastView.vue'
+import ToastView from '../components/toast/ToastView.vue'
 
 type Options = {
     title?: String,

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { defineProps, PropType, onMounted } from 'vue'
-import { Position, ToastType } from '../options/Configuration'
-import Event from '../options/event'
+import { Position, ToastType } from '../../options/Configuration'
+import Event from '../../options/event'
 
 const props = defineProps({
     title: {
